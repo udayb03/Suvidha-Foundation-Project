@@ -1,0 +1,26 @@
+.mentor{
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mentor h2, .mentor h4{
+    margin: 0 auto;
+}
+
+.mentor h2{
+    margin-top: 45px;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mentor h4{
+    font-size: 23px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}

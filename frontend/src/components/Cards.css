@@ -1,0 +1,35 @@
+.cards{
+    display: flex;
+    width: 80vw;
+    gap: 18px;
+}
+
+.cards .left {
+    width: 50%;
+}
+
+.cards .right {
+    width: 50%;
+    display: flex;
+    gap: 8px;
+}
+
+.cards .right .card-2{
+    width: 92%;
+}
+
+@media (max-width:880px){
+    .cards{
+        flex-direction: column;
+    }
+    .cards .left {
+        width: 100%;
+    }
+    .cards .right {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cards .right .card-2{
+        width: 100%;
+    }
+}

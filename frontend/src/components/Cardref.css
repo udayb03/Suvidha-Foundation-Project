@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+}
+
+.inner{
+    background-color: #f4dddf;
+    padding: 23px;
+}
+
+.inner p{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inner h2{
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 23px;
+}

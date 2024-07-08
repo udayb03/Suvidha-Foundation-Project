@@ -1,0 +1,19 @@
+.eachProcess{
+    width: 100%;
+    display: flex;
+}
+/* .eachProcess .icon{
+    width: 45px;
+    height: 45px;
+} */
+.promise .h3{
+    font-size: 28px;
+    font-weight: 300;
+    color: #c1282f;
+}
+
+.promise .p{
+    font-size: 18px;
+    font-weight: 250;
+    color: #323232;
+}

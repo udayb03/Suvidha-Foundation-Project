@@ -1,33 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import './App.css';
+import AboutUs from './components/AboutUs';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Mentor from './components/Mentor';
+import Cards from './components/Cards';
+import Processes from './components/Processes';
+import Qualityprocedure from './components/Qualityprocedure';
+import Carousel from './components/Carousel';
+import OrderProcess from './components/OrderProcess';
+import Insights from './components/Insights';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar/>
+      <AboutUs/>
+      <Mentor heading={'Our Mentors'} note={'Intellectual, Passionate, and Highly Collaborative'}/>
+      <Cards/>
+      <Processes/>
+      <Qualityprocedure/>
+      <Carousel/>
+      <OrderProcess/>
+      <Insights/>
+      <Footer/>
+
+      {/* <Router>
+        <Navbar />
+        <Routes> 
+          Define your routes here
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/services" component={Services} />
+          <Route path="/service1" component={Service1} />
+          <Route path="/service2" component={Service2} />
+          <Route path="/service3" component={Service3} />
+          <Route path="/industries" component={Industries} />
+          <Route path="/industry1" component={Industry1} />
+          <Route path="/industry2" component={Industry2} />
+          <Route path="/industry3" component={Industry3} />
+          <Route path="/pricing" component={Pricing} />
+          <Route path="/help-guide" component={HelpGuide} />
+          <Route path="/contact-us" component={ContactUs} />
+          <Route path="/hire-research-assistant" component={HireResearchAssistant} />
+        </Routes>
+      </Router> */}
     </>
   )
 }

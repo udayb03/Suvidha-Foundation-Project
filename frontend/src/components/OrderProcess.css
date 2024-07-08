@@ -1,0 +1,21 @@
+.orderingProcesses{
+    background-color: black;
+    color: white;
+    padding: 35px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.orderingProcesses h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400;
+    initial-letter: 0;
+}
+
+.orderingProcesses p{
+    text-align: center;
+    margin-top: 25px;
+}

@@ -1,0 +1,56 @@
+.Qualityprocedure{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.Qualityprocedure .top h2,.Qualityprocedure .bottom h2{ 
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.Qualityprocedure .top{
+    margin-bottom: 60px;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+}
+
+.uniqueButton{
+    width: 180px;
+    margin: 15px 0;
+}
+
+.transparent-button{
+    font-size: 17px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 9px 6px;
+    width: 240px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.top-buttons,.bottom-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width:500px){
+    .top-buttons,.bottom-buttons{
+        flex-direction: column;
+    }
+}

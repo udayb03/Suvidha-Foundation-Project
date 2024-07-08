@@ -1,0 +1,39 @@
+.background{
+    padding: 30px 8vw;
+}
+
+.ourProcessHeading{
+    color: #c1282f;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.processes{
+    width: 84vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.process{
+    width: 45%;
+}
+
+.row1,.row2{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:880px){
+    .row1,.row2{
+        flex-direction: column;
+    }
+    .process{
+        width: 100%;
+    }
+}
